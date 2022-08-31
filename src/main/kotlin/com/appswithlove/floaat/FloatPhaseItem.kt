@@ -1,6 +1,8 @@
 package com.appswithlove.floaat
 
-@kotlinx.serialization.Serializable
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class FloatPhaseItem(
     val project_id: Int,
     val name: String,

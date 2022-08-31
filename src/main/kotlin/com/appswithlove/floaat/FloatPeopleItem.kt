@@ -1,6 +1,8 @@
 package com.appswithlove.floaat
 
-@kotlinx.serialization.Serializable
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class FloatPeopleItem(
     val name: String,
     val people_id: Int,
@@ -24,13 +26,13 @@ data class FloatPeopleItem(
     val work_days_hours: Array<Double>? = null,
 )
 
-@kotlinx.serialization.Serializable
+@Serializable
 data class FloatDepartment(
     val department_id: Int? = null,
     val name: String
 )
 
-@kotlinx.serialization.Serializable
+@Serializable
 data class FloatPeopleTag(
     val name: String
 )

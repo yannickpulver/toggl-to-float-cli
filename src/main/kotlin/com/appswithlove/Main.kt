@@ -3,8 +3,6 @@ package com.appswithlove
 import kotlinx.serialization.json.Json
 import java.time.LocalDate
 
-val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
-
 fun main(args: Array<String>) {
 
     val t2f = T2F()
@@ -35,3 +33,4 @@ fun main(args: Array<String>) {
     }
 }
 
+val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }

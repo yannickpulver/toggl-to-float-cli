@@ -1,6 +1,8 @@
 package com.appswithlove.floaat
 
-@kotlinx.serialization.Serializable
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class FloatTimeEntriesItem(
     val date: String,
     val hours: Double,

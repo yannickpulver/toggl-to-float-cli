@@ -1,6 +1,8 @@
 package com.appswithlove.toggl
 
-@kotlinx.serialization.Serializable
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class TogglWorkspaceItem(
     val admin: Boolean,
     val api_token: String,

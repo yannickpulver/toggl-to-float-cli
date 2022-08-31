@@ -1,9 +1,10 @@
 package com.appswithlove.toggl
 
+import kotlinx.serialization.Serializable
 import java.awt.Color
 import kotlin.random.Random
 
-@kotlinx.serialization.Serializable
+@Serializable
 data class TogglProject(
     val active: Boolean = true,
     val auto_estimates: Boolean = false,

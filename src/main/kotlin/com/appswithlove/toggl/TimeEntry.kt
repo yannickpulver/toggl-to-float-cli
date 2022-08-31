@@ -1,4 +1,6 @@
-@kotlinx.serialization.Serializable
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class TimeEntry(
     val at: String,
     val billable: Boolean,
