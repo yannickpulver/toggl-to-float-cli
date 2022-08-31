@@ -1,7 +1,7 @@
-# Toggl-2-float
+# Toggl-2-Float
 
 Handy Kotlin Console application that transfers your float projects to Toggl and your time entries from Toggl to
-float.
+Float.
 
 ### 🪄 Features / Commands:
 
