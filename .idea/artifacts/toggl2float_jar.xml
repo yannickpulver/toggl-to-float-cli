@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="toggl2redmine:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/toggl2redmine_jar</output-path>
-    <root id="archive" name="toggl2redmine.jar">
+  <artifact type="jar" name="toggl2float:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/toggl2float_jar</output-path>
+    <root id="archive" name="toggl2float.jar">
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/src/main/kotlin/META-INF/MANIFEST.MF" />
       </element>

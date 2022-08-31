@@ -1,3 +1,3 @@
 
-rootProject.name = "toggl2redmine"
+rootProject.name = "toggl2float"
 
